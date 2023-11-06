@@ -7,9 +7,9 @@ import './Formulario.css'
 const Formulario = (props) => {
 
     const times = [
-        'Cabeleireiro',
-        'Maquiador',
-        'Manicure',
+        'Cabeleireiro(a)',
+        'Maquiagem',
+        'Manicure/Pedicure',
         'Barbeiro',
         'Massagista',
         'Esteticista'
