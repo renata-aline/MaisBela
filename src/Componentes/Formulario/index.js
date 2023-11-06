@@ -4,7 +4,7 @@ import Botao from '../Botao'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 
-const Formulario = () => {
+const Formulario = (props) => {
 
     const times = [
         'Cabeleireiro',
@@ -23,7 +23,13 @@ const Formulario = () => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log('deu certo =>',nome, cargo, imagem,time)
+        props.cadastroFuncionario({
+            nome,
+            cargo,
+            imagem,
+            time
+        })
+       
     }
 
     return (
