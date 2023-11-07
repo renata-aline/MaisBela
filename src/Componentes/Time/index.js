@@ -3,7 +3,7 @@ import Funcionario from '../Funcionario'
 
 const Time = (props) => {
     return (
-        <section className='time' style={{ backgroundColor: props.corSecundaria }}>
+        (props.funcionarios.length > 0) ? <section className='time' style={{ backgroundColor: props.corSecundaria }}>
             <h3 style={{ borderColor: props.corprimaria }}>{props.nome}</h3>
             <div className='funcionarios'>
                 {props.funcionarios.map(funcionario => <Funcionario
@@ -13,6 +13,7 @@ const Time = (props) => {
                 />)}
             </div>
         </section>
+        : ''
 
     )
 }
