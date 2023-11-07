@@ -9,3 +9,11 @@
     display: inline-block;
     padding: 8px;
 }
+.time .funcionarios {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+    
+}

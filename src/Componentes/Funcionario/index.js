@@ -1,14 +1,14 @@
 import './Funcionario.css'
 
-const Funcionario = () => {
+const Funcionario = ({nome, imagem, cargo}) => {
     return (
         <div className='funcionario'>
             <div className='cabecalho'>
-                <img src="https://github.com/renata-aline.png" alt="" />
+                <img src={imagem} alt={nome} />
             </div>
             <div className='rodape'>
-                <h4>Renata aline</h4>
-                <h5>maquiadora</h5>
+                <h4>{nome}</h4>
+                <h5>{cargo}</h5>
             </div>
         </div>
 
