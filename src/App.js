@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario cadastroFuncionario={funcionario => funcionarioAdicionado(funcionario)} />
+      <Formulario times={times.map(time => time.nome)} cadastroFuncionario={funcionario => funcionarioAdicionado(funcionario)} />
       {times.map(time => <Time key={time.nome} nome={time.nome} corprimaria={time.corprimaria} corSecundaria={time.corSecundaria}/>)}
       
     </div>
