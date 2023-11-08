@@ -48,7 +48,7 @@ function App() {
   const [funcionarios, setFuncionarios] = useState([])
 
   const funcionarioAdicionado = (funcionario) => {
-    console.log(funcionario)
+    debugger
     setFuncionarios([...funcionarios, funcionario])
   }
     
