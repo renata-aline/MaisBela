@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MaisBela/static/css/main.08114c4c.css",
-    "main.js": "/MaisBela/static/js/main.ea3090ed.js",
+    "main.css": "/MaisBela/static/css/main.f0febfae.css",
+    "main.js": "/MaisBela/static/js/main.062e3193.js",
     "index.html": "/MaisBela/index.html",
-    "main.08114c4c.css.map": "/MaisBela/static/css/main.08114c4c.css.map",
-    "main.ea3090ed.js.map": "/MaisBela/static/js/main.ea3090ed.js.map"
+    "main.f0febfae.css.map": "/MaisBela/static/css/main.f0febfae.css.map",
+    "main.062e3193.js.map": "/MaisBela/static/js/main.062e3193.js.map"
   },
   "entrypoints": [
-    "static/css/main.08114c4c.css",
-    "static/js/main.ea3090ed.js"
+    "static/css/main.f0febfae.css",
+    "static/js/main.062e3193.js"
   ]
 }
