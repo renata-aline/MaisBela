@@ -1,4 +1,4 @@
-import './Rodape.css'
+
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineFacebook } from "react-icons/ai";

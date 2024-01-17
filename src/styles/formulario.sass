@@ -1,0 +1,18 @@
+@use '../styles/variables'
+@use '../styles/mixins'
+
+.formulario
+    @include mixins.shadow
+    border-radius: 10px
+    margin-bottom: 10px
+
+    .subtitle
+        color: variables.$text-color
+        font-size: 16px
+        padding: 16px
+
+        @media (min-width: 768px)
+            font-size: 20px
+
+        @media (min-width: 1440px)
+            font-size: 24px

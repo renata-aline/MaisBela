@@ -1,0 +1,30 @@
+@use '../styles/variables'
+@use '../styles/mixins'
+
+.banner
+    @include mixins.center
+    gap: 16px
+    padding: 10px
+    background: variables.$bg-primary
+    color: variables.$text-color
+    text-transform: uppercase
+    font-size: 12px
+    font-weight: bold
+
+    @media (min-width: 768px)
+        width: 100%
+        font-size: 18px
+        justify-content: space-around
+
+    @media (min-width: 1440px)
+        justify-content: space-evenly
+
+    img
+        width: 50%
+        border-radius: 50%
+
+        @media (min-width: 768px)
+            width: 40%
+
+        @media (min-width: 1440px)
+            width: 30%

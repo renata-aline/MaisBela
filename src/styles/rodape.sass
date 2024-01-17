@@ -1,0 +1,16 @@
+@use '../styles/variables'
+@use '../styles/mixins'
+
+.footer
+    background: variables.$bg-primary
+    color: variables.$text-color
+    padding: 16px
+    font-size: 16px
+    text-align: center
+
+    h2
+        font-size: 16px
+
+    .icons
+        @include mixins.center
+        gap: 20px
